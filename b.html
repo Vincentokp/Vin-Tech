@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Stopwatch</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <link rel="stylesheet" href="b.css" />
+</head>
+
+<body>
+    <div class="card" role="application" aria-label="Stopwatch">
+        <div class="time" id="display">00:00:00.00</div>
+        <div class="controls">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn" class="secondary">Stop</button>
+            <button id="lapBtn" class="secondary">Lap</button>
+            <button id="resetBtn" class="warn">Reset</button>
+        </div>
+        <div class="muted">Space = Start/Stop • L = Lap • R = Reset</div>
+        <div class="laps" id="laps"></div>
+    </div>
+
+   <script src="b.js"></script>
+</body>
+
+</html>
